@@ -17,6 +17,7 @@ export const Wrapper = styled.div`
 `
 
 export const Column = styled.div`
+
     flex: 1;
 `
 
@@ -42,7 +43,7 @@ export const Title = styled.h2`
     color: #FFFFFF;
 `
 
-export const TitleLogin = styled.p`
+export const TitleSignin = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -51,7 +52,7 @@ export const TitleLogin = styled.p`
     margin-bottom: 8px;
 `
 
-export const SubtitleLogin = styled.p`
+export const SubtitleSignin = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -61,22 +62,27 @@ export const SubtitleLogin = styled.p`
 `
 
 
-export const EsqueciText  = styled.p`
+export const AceiteTermos  = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-
-    color: #E5E044;
+    margin-top: 30px;
+    color: "white";
 ` 
 
-export const CriarText =  styled.a`
+export const JaTenhoConta =  styled.p`
     font-family: 'Open Sans';
-    font-style: normal;
+    font-style: bold;
     font-weight: 700;
     font-size: 14px;
+    margin-top: 20px;
     line-height: 19px;
+    color: "white";
 
-    color: #23DD7A;
 `
+export const LinkEstilizado = styled.a`
+  color: #23DD7A;
+  
+`;
